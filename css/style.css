@@ -1,0 +1,43 @@
+.self-image {
+  margin: auto;
+  width: 30%;
+  height: 100px;
+}
+img {
+  border-radius: 50%;
+}
+
+.first-layout{
+   width: 476px;
+  height: 99px;
+  background-color: salmon;
+  float: left;
+  margin: 10px;
+}
+table{
+  width: 400px;
+  margin: auto;
+}
+th {
+  text-align: left;
+}
+table, th, td {
+  border: 1px solid #000;
+  
+}
+table, th, td {
+  border-collapse: collapse;
+  margin: auto;
+}
+th, td {
+  padding: 10px;
+}
+th, td {
+  font-family: Inconsolata, monospace;
+}
+tr:nth-child(even) {
+  background-color:#FFFF00 ;
+}
+tr:nth-child(odd){
+  background-color: #40C4FF ;
+}
